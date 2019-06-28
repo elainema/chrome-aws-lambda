@@ -98,6 +98,7 @@ class Chromium {
       '--prerender-from-omnibox=disabled',
       '--use-gl=swiftshader',
       '--use-mock-keychain',
+      '--proxy-server'
     ];
 
     if (parseInt(process.env.AWS_LAMBDA_FUNCTION_MEMORY_SIZE || process.env.FUNCTION_MEMORY_MB || '1024', 10) >= 1024) {
