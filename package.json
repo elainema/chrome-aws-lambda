@@ -19,7 +19,12 @@
   "scripts": {
     "postversion": "git push && git push --tags && npm publish"
   },
-  "dependencies": {},
+  "dependencies": {
+    "chrome-aws-lambda": "^1.18.0",
+    "proxy-chain": "^0.2.7",
+    "puppeteer-core": "^1.18.1",
+    "request": "^2.88.0"
+  },
   "devDependencies": {
     "@types/puppeteer": "~1.12.4",
     "iltorb": "^2.4.3"
